@@ -1,0 +1,8 @@
+CREATE TABLE `rc_agents` (
+  `extensionId` varchar(100) NOT NULL,
+  `presenceStatus` varchar(100) NOT NULL,
+  `LastUpdated` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+alter table rc_agents add IsQueueMember bit
